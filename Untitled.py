@@ -24,7 +24,7 @@ def load_data(file_path):
         print(f"Error: File '{file_path}' not found.")
         return None
 
-# Function to preprocess data (drop unnecessary columns and encode categorical variables)
+# Function to preprocess data 
 def preprocess_data(train_data, test_data):
     # Drop 'Id' column if present
     if 'Id' in train_data.columns:
